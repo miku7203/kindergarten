@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>聯繫我們</title>
+    <link rel="icon" href="./images/03.ico">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+
+    <!-- google font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+    </style>
+
+    <!-- cursors -->
+    <section>
+        <style type="text/css">
+            * {
+                cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur116.cur), auto !important;
+            }
+        </style>
+        <a href="https://www.cursors-4u.com/cursor/2008/12/17/cool-blue-outer-glow-pointer.html" target="_blank"
+            title="Cool Blue Outer Glow Pointer">
+            <img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Cool Blue Outer Glow Pointer"
+                style="position:absolute; top: 0px; right: 0px;" />
+        </a>
+    </section>
+    <!-- End cursors -->
+
+    <!-- background -->
+    <style>
+        .bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -999;
+        }
+
+        .bg img {
+            min-height: 100%;
+            width: 100%;
+        }
+    </style>
+
+    <!--選單至上-->
+    <style>
+        .navFixed {
+            z-index: 10;
+            position: fixed;
+            top: 0;
+            left: 0;
+            margin-top: 0;
+            min-width: 100%;
+            opacity: 0.94;
+            transition: opacity .5s ease-out;
+        }
+    </style>
+
+    <!--旁側選單-->
+    <style>
+        #MyBlog {
+            position: fixed;
+            /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+
+            top: 50%;
+            /*設置垂直位置*/
+
+            right: -100px;
+            /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+
+            background: #ffffff;
+            /*背景顏色*/
+
+            padding: 10px 20px;
+
+            border-radius: 10px;
+            /*圓角*/
+
+            -moz-border-radius: 10px;
+
+            -webkit-border-radius: 10px;
+        }
+
+        #MyBlog:hover {
+            /*當滑鼠移至此區塊時，伸縮區塊*/
+            right: -10px;
+            z-index: 10;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wave"></div>
+    <div class="bg">
+        <img src="./images/幼稚園01.png">
+    </div>
+    <!-- share -->
+    <div id="MyBlog">
+        <span id="title"></span>
+        <a target="_blank" href="https://www.facebook.com/"><img alt="FB" height="40" src="./images/facebook.png"></a>
+        <a target="_blank" href="https://line.me/zh-hant/"><img alt="Line" height="40" src="./images/line.png"></a>
+        <a target="_blank" href="https://www.instagram.com/"><img alt="IG" height="40" src="./images/instagram.png"></a>
+    </div>
+
+    <!-- Image and text -->
+    <div class="navFixed">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(255, 203, 214);">
+            <a class="navbar-brand" href="index.html">
+                <img src="./images/01.png" width="30" height="40" class="d-inline-block align-top mr-1" alt="">
+                <img src="./images/logo_homepage.png"></a>
+            <ul class="nav nav-pills">
+                <li class="nav-item mr-1">
+                    <a class="btn btn-info nav-link" href="index.html">最新消息</a>
+                </li>
+                <li class="nav-item mr-1">
+                    <a class="btn btn-info nav-link" href="#">師資介紹</a>
+                </li>
+                <li class="nav-item mr-1">
+                    <a class="btn btn-info nav-link" href="photo.html">校園活動</a>
+                </li>
+                <li class="nav-item dropdown mr-1">
+                    <a class="btn btn-info nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        班級介紹
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="class.html">向日葵班（ひまわり組）</a>
+                        <a class="dropdown-item" href="class1.html">玫瑰班（ばら組）</a>
+                    </div>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-info" href="contact.html">聯繫我們</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <br><br><br><br>
+
+    <div class="container">
+        <h1 class="ml5 text-center">
+            <span class="text-wrapper">
+                <span class="line line1"></span>
+                <span class="letter letters-left" style="color: rgb(255, 56, 89);">聯繫我們</span>
+                <span class="letters letters-right" style="color: rgb(255, 133, 154);">各種方式</span>
+                <span class="line line2"></span>
+            </span>
+        </h1>
+        <nav class="breadcrumb">
+            <a class="breadcrumb-item" href="index.html">首頁</a>
+            <span class="breadcrumb-item active">聯繫我們</span>
+        </nav>
+
+        <div class="row">
+            <div class="col-lg-8">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1615.1305381372308!2d139.7659218792837!3d35.94058282125618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018be7c33cb84f1%3A0x5134a5ce76931a13!2sFutaba%20Kindergarten!5e0!3m2!1szh-TW!2sjp!4v1617775395233!5m2!1szh-TW!2sjp"
+                    width="730" height="543" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="col-lg-4">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!4v1617882614755!6m8!1m7!1sCAoSLEFGMVFpcFA5UW12TW1oekhMejNaSk80ckxGT09BTG9sN2Rsem05ZE41Vlhl!2m2!1d35.940251877994!2d139.76747290127!3f340.72781336443194!4f-14.07505823374494!5f0.7820865974627469"
+                    width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="h4 text-danger mt-2">
+                    <strong>~~~詳細聯繫方式~~~</strong>
+                </div>
+                <li>地址：〒344-0021 埼玉県春日部市大場902-1</li>
+                <li>電話：+81487343873</li>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-lg-8">
+                <h3>傳訊息給我們</h3>
+                <div class="form-group">
+                    <label for="">姓名</label>
+                    <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                    <small id="helpId" class="text-muted"></small>
+                </div>
+                <div class="form-group">
+                    <label for="">電話</label>
+                    <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                    <small id="helpId" class="text-muted"></small>
+                </div>
+                <div class="form-group">
+                    <label for="">電子郵件</label>
+                    <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                    <small id="helpId" class="text-muted"></small>
+                </div>
+                <div class="form-group">
+                    <label for="">留言</label>
+                    <textarea class="form-control" name="" id="" rows="5"></textarea>
+                </div>
+                <button type="button" name="" id="" class="btn btn-primary btn-lg btn-block">送出</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-left py-5 mt-4 " style="background-color: black">
+        <span class="text-white ml-5"><small>&copy; copyright futabayouchien inc 2021. All Right
+                Reserved.</small></small>
+            <a href="https://instagram.com/" target="_blank"><img src="./images/ig.png" href="class.html"
+                    style="float: right" class="footer"></a>
+            <a href="https://facebook.com/" target="_blank"><img src="./images/fb.png" href="class.html"
+                    style="float: right" class="footer1"></a>
+            <a href="https://line.me/zh-hant/" target="_blank"><img src="./images/line2.png" href="class.html"
+                    style="float: right" class="footer1"></a>
+            <a href="https://youtube.com/" target="_blank"><img src="./images/yt.png" href="class.html"
+                    style="float: right" class="footer1"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="./images/twitter.png" style="float: right"
+                    class="footer1"></a>
+        </span>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- letters JS -->
+    <section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <script>
+            anime.timeline({ loop: true })
+                .add({
+                    targets: '.ml5 .line',
+                    opacity: [0.5, 1],
+                    scaleX: [0, 1],
+                    easing: "easeInOutExpo",
+                    duration: 700
+                }).add({
+                    targets: '.ml5 .line',
+                    duration: 600,
+                    easing: "easeOutExpo",
+                    translateY: (el, i) => (-0.625 + 0.625 * 2 * i) + "em"
+                }).add({
+                    targets: '.ml5 .ampersand',
+                    opacity: [0, 1],
+                    scaleY: [0.5, 1],
+                    easing: "easeOutExpo",
+                    duration: 600,
+                    offset: '-=600'
+                }).add({
+                    targets: '.ml5 .letters-left',
+                    opacity: [0, 1],
+                    translateX: ["0.5em", 0],
+                    easing: "easeOutExpo",
+                    duration: 600,
+                    offset: '-=300'
+                }).add({
+                    targets: '.ml5 .letters-right',
+                    opacity: [0, 1],
+                    translateX: ["-0.5em", 0],
+                    easing: "easeOutExpo",
+                    duration: 600,
+                    offset: '-=600'
+                }).add({
+                    targets: '.ml5',
+                    opacity: 0,
+                    duration: 1000,
+                    easing: "easeOutExpo",
+                    delay: 8000
+                });
+        </script>
+    </section>
+</body>
+
+</html>
