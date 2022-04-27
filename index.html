@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>第8組_雙葉幼兒園</title>
+  <link rel="icon" href="./images/03.ico">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css" type="text/css">
+  <link rel="stylesheet" href="./css/index.css" type="text/css">
+
+  <!-- google font -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+  </style>
+
+  <!-- cursors -->
+  <section>
+    <style type="text/css">
+      * {
+        cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur116.cur), auto !important;
+      }
+    </style>
+    <a href="https://www.cursors-4u.com/cursor/2008/12/17/cool-blue-outer-glow-pointer.html" target="_blank"
+      title="Cool Blue Outer Glow Pointer">
+      <img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Cool Blue Outer Glow Pointer"
+        style="position:absolute; top: 0px; right: 0px;" />
+    </a>
+  </section>
+  <!-- End cursors -->
+
+  <!-- background -->
+  <style>
+    .bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: -999;
+    }
+
+    .bg img {
+      min-height: 100%;
+      width: 100%;
+    }
+  </style>
+
+  <!--選單至上-->
+  <style>
+    .navFixed {
+      z-index: 10;
+      position: fixed;
+      top: 0;
+      left: 0;
+      margin-top: 0;
+      min-width: 100%;
+      opacity: 0.94;
+      transition: opacity .5s ease-out;
+    }
+  </style>
+
+  <!--旁側選單-->
+  <style>
+    #MyBlog {
+      position: fixed;
+      /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+
+      top: 50%;
+      /*設置垂直位置*/
+
+      right: -100px;
+      /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+
+      background: #ffffff;
+      /*背景顏色*/
+
+      padding: 10px 20px;
+
+      border-radius: 10px;
+      /*圓角*/
+
+      -moz-border-radius: 10px;
+
+      -webkit-border-radius: 10px;
+    }
+
+    #MyBlog:hover {
+      /*當滑鼠移至此區塊時，伸縮區塊*/
+      right: -10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wave"></div>
+  <div class="bg">
+    <img src="./images/幼稚園01.png">
+  </div>
+  <!-- share -->
+  <div id="MyBlog">
+    <span id="title"></span>
+    <a target="_blank" href="https://www.facebook.com/"><img alt="FB" height="40" src="./images/facebook.png"></a>
+    <a target="_blank" href="https://line.me/zh-hant/"><img alt="Line" height="40" src="./images/line.png"></a>
+    <a target="_blank" href="https://www.instagram.com/"><img alt="IG" height="40" src="./images/instagram.png"></a>
+  </div>
+
+  <!-- navbar -->
+  <div class="navFixed">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(255, 203, 214);">
+      <a class="navbar-brand" href="index.html">
+        <img src="./images/01.png" width="30" height="40" class="d-inline-block align-top mr-1" alt="">
+        <img src="./images/logo_homepage.png"></a>
+      <ul class="nav nav-pills">
+        <li class="nav-item mr-1">
+          <a class="btn btn-info nav-link" href="index.html">最新消息</a>
+        </li>
+        <li class="nav-item mr-1">
+          <a class="btn btn-info nav-link" href="#">師資介紹</a>
+        </li>
+        <li class="nav-item mr-1">
+          <a class="btn btn-info nav-link" href="photo.html">校園活動</a>
+        </li>
+        <li class="nav-item dropdown mr-1">
+          <a class="btn btn-info nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            班級介紹
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="class.html">向日葵班（ひまわり組）</a>
+            <a class="dropdown-item" href="class1.html">玫瑰班（ばら組）</a>
+          </div>
+        <li class="nav-item">
+          <a class="nav-link btn btn-info" href="contact.html">聯繫我們</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!-- End navbar -->
+  
+  <br><br><br><br>
+
+  <!-- Page Content -->
+  <div class="container">
+    <h1 class="ml5 text-center">
+      <span class="text-wrapper">
+        <span class="line line1"></span>
+        <span class="letter letters-left" style="color: rgb(255, 56, 89)">最新消息</span>
+        <span class="letters letters-right" style="color: rgb(255, 133, 154)"> 招生計畫</span>
+        <span class="line line2"></span>
+      </span>
+    </h1>
+    <nav class="breadcrumb">
+      <a class="breadcrumb-item" href="index.html">首頁</a>
+      <span class="breadcrumb-item active">最新消息</span>
+    </nav>
+
+    <!-- second row -->
+    <div class="row">
+      <div class="col-lg-6 mb-4">
+        <img class="img" data-aos="flip-left" src="./images/ground.jpg" width="550" height="450" alt="">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="ml11 text-danger">
+          <span class="text-wrapper">
+            <span class="line line1"></span>
+            <span class="letters">！～招生訊息～！</span>
+          </span>
+        </h1>
+
+        <h6><strong>各個班級全力招生中！</strong></h6>
+        <ul><strong>
+            <li>向日葵班（ひまわり組）</li>
+            <li>玫瑰班（ばら組）</li>
+            <li>新開班級!!!櫻花班!!!（さくら組）</li>
+          </strong></ul>
+        <style>
+          p {
+            text-indent: 2em;
+          }
+        </style>
+        <p>
+          優秀教師、優良環境、高尚同學，在這裡沒有學習的壓力，可謂是教學界的天堂。這所幼稚園擁有一切您的需求，可以放心把孩子交給我們，這裡的安全措施也有國家一級保證，若孩子受到傷害，我們導師會負起一切所有責任！歡迎您的孩子加入這個大家庭！！！
+        </p>
+        <br>
+        <div class="button1">
+          <button class="learn-more button1">
+            <span class="circle" aria-hidden="true">
+              <span class="icon arrow"></span>
+            </span>
+            <a href="contact.html"><span class="button-text">立即加入</span></a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- third row -->
+    <div class="row my-3">
+      <div class="col-lg-6">
+        <h1 class="ml14" style="color:rgb(255, 93, 93)">
+          <span class="text-wrapper">
+            <span class="letters">孩子們給老師的評語</span>
+            <span class="line"></span>
+          </span>
+        </h1>
+        <h2 style="color:rgb(255, 93, 93)"><strong></strong></h2>
+        <h6>由優秀畢業的學長和學姊一同分享～～～</h6>
+        <h6 style="color:rgb(126, 126, 65)"><strong>向日葵班（ひまわり組）</strong></h6>
+        <ul>
+          <li>風間 トオル：老師們都很有活力！</li>
+          <li>桜田 ネネ：感覺隨時隨地都有人照顧著我(๑´ㅂ`๑)</li>
+        </ul>
+        <h6 style="color:rgb(255, 89, 89)"><strong>玫瑰班（ばら組）</strong></h6>
+        <ul>
+          <li>惠：自由自在的感覺真好！</li>
+          <li>美穗：自從讀了這間幼稚園後，國小考試都考100分！</li>
+        </ul>
+        <h5><strong>未來的成就值日可待！</strong></h5>
+      </div>
+      <div class="col-lg-6 mb-4" data-aos="zoom-in">
+        <div id="carlBanner" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carlBanner" data-slide-to="0" class="active"></li>
+            <li data-target="#carlBanner" data-slide-to="1"></li>
+            <li data-target="#carlBanner" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img src="https://im.marieclaire.com.tw/m800c533h100b0/assets/mc/202002/5E4A3890234C81581922448.jpeg"
+                width="550" height="350" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="http://nimg.ws.126.net/?url=http%3A%2F%2Fvideoimg.ws.126.net%2Fcover%2F20200201%2Fbip1mN7GU_cover.jpg&thumbnail=750x2147483647&quality=85&type=jpg"
+                width="550" height="350" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img src="https://inmywordz.com/wp-content/uploads/20190419181209_56.jpg" width="550" height="350"
+                alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carlBanner" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carlBanner" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Page Content -->
+
+  <footer class="text-left py-5 mt-4 " style="background-color: black">
+    <span class="text-white ml-5"><small>&copy; copyright futabayouchien inc 2021. All Right Reserved.</small></small>
+      <a href="https://instagram.com/" target="_blank"><img src="./images/ig.png" href="class.html" style="float: right"
+          class="footer"></a>
+      <a href="https://facebook.com/" target="_blank"><img src="./images/fb.png" href="class.html" style="float: right"
+          class="footer1"></a>
+      <a href="https://line.me/zh-hant/" target="_blank"><img src="./images/line2.png" href="class.html"
+          style="float: right" class="footer1"></a>
+      <a href="https://youtube.com/" target="_blank"><img src="./images/yt.png" href="class.html" style="float: right"
+          class="footer1"></a>
+      <a href="https://twitter.com/" target="_blank"><img src="./images/twitter.png" style="float: right"
+          class="footer1"></a>
+    </span>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!-- letters JS -->
+  <section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <!-- 最新消息 招生計畫 -->
+    <script>
+      anime.timeline({ loop: true })
+        .add({
+          targets: '.ml5 .line',
+          opacity: [0.5, 1],
+          scaleX: [0, 1],
+          easing: "easeInOutExpo",
+          duration: 700
+        }).add({
+          targets: '.ml5 .line',
+          duration: 600,
+          easing: "easeOutExpo",
+          translateY: (el, i) => (-0.625 + 0.625 * 2 * i) + "em"
+        }).add({
+          targets: '.ml5 .ampersand',
+          opacity: [0, 1],
+          scaleY: [0.5, 1],
+          easing: "easeOutExpo",
+          duration: 600,
+          offset: '-=600'
+        }).add({
+          targets: '.ml5 .letters-left',
+          opacity: [0, 1],
+          translateX: ["0.5em", 0],
+          easing: "easeOutExpo",
+          duration: 600,
+          offset: '-=300'
+        }).add({
+          targets: '.ml5 .letters-right',
+          opacity: [0, 1],
+          translateX: ["-0.5em", 0],
+          easing: "easeOutExpo",
+          duration: 600,
+          offset: '-=600'
+        }).add({
+          targets: '.ml5',
+          opacity: 0,
+          duration: 1000,
+          easing: "easeOutExpo",
+          delay: 8000
+        });
+    </script>
+
+    <!-- 招生訊息 -->
+    <script>
+      // Wrap every letter in a span
+      var textWrapper = document.querySelector('.ml11 .letters');
+      textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
+      anime.timeline({ loop: true })
+        .add({
+          targets: '.ml11 .line',
+          scaleY: [0, 1],
+          opacity: [0.5, 1],
+          easing: "easeOutExpo",
+          duration: 700
+        })
+        .add({
+          targets: '.ml11 .line',
+          translateX: [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 10],
+          easing: "easeOutExpo",
+          duration: 700,
+          delay: 100
+        }).add({
+          targets: '.ml11 .letter',
+          opacity: [0, 1],
+          easing: "easeOutExpo",
+          duration: 600,
+          offset: '-=775',
+          delay: (el, i) => 34 * (i + 1)
+        }).add({
+          targets: '.ml11',
+          opacity: 0,
+          duration: 1000,
+          easing: "easeOutExpo",
+          delay: 3000
+        });
+    </script>
+
+    <!-- 孩子們給老師的評語 -->
+    <script>
+      // Wrap every letter in a span
+      var textWrapper = document.querySelector('.ml14 .letters');
+      textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+      anime.timeline({ loop: true })
+        .add({
+          targets: '.ml14 .line',
+          scaleX: [0, 1],
+          opacity: [0.5, 1],
+          easing: "easeInOutExpo",
+          duration: 900
+        }).add({
+          targets: '.ml14 .letter',
+          opacity: [0, 1],
+          translateX: [40, 0],
+          translateZ: 0,
+          scaleX: [0.3, 1],
+          easing: "easeOutExpo",
+          duration: 800,
+          offset: '-=600',
+          delay: (el, i) => 150 + 25 * i
+        }).add({
+          targets: '.ml14',
+          opacity: 0,
+          duration: 1000,
+          easing: "easeOutExpo",
+          delay: 3000
+        });
+    </script>
+  </section>
+</body>
+
+</html>
