@@ -1,2 +1,1 @@
 # Futaba kindergarten
-## Futaba kindergarten
